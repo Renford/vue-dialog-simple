@@ -1,5 +1,5 @@
 <template>
-  <div id="vueConfirm">
+  <div id="vueConfirm" class="c-page">
     <!--v-show必须写在transition的第一个子元素上，并且需要key值-->
     <!--使用方法：this.$confirm({text:'aaa',duration:2000,callback:function(){alert('我是回调函数')}})-->
     <transition-group name="fade" tag="div">
@@ -180,6 +180,10 @@ export default {
   text-align: center;
   border-radius: 3px;
   overflow: hidden;
+}
+.c-page {
+  position: fixed;
+  z-index: 999999;
 }
 .c-container {
   padding:20px 0;
