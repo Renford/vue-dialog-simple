@@ -72,11 +72,12 @@ export default {
   z-index: 999;
   width: 100%;
   margin: auto;
-  display: table;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 .loading {
-  width: 100%;
-  justify-content: center;
 }
 .loading i {
   font-style: normal;
