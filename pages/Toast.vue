@@ -65,7 +65,7 @@ export default {
 <style scoped>
 .wrap {
   position: fixed;
-  top: 0;
+  top: 45%;
   left: 0;
   right: 0;
   bottom: 0;
